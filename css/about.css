@@ -1,0 +1,252 @@
+#navbarNav {
+	justify-content: flex-end;
+}
+
+#menu-list li {
+	display: inline-block;
+	border-radius: 5px;
+	transition: .7s ease;
+}
+
+#menu-list li:nth-of-type(odd):hover {
+	transform: scale(.9);
+	background: #e4e4e4;
+}
+
+#menu-list li.active:hover {
+	transform: scale(1.0);
+	background: #F2F708;
+}
+
+.slash {
+	display: none;
+    padding: 8px 15px;
+    color: #005e7e;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #005e7e;
+}
+
+.active {
+	background: #a3a54b8a;
+}
+
+#gap {
+	height: .5rem;
+	background: #e4e4e4;
+}
+
+#body {
+	margin: 0 0 5rem 0;
+}
+
+.about-left h2 {
+	margin: 3rem 0 5rem 0;
+	font-size: 3.5rem;
+}
+
+.about-left p {
+	text-align: justify;
+	margin: 1rem 3rem 1rem 0;
+}
+
+.image.col-md-12.col-lg-12.col-xl-12 {
+	display: block;
+	position: relative;
+	height: 28.55rem;
+}
+
+.about-right p {
+	text-align: justify;
+}
+
+#rec-m {
+    position: absolute;
+    top: 1.5rem;
+    left: -2rem;
+}
+
+
+#car {
+	position: absolute;
+	top: 6.5rem;
+	left: 9rem;
+}
+
+footer {
+	background: #ef4035;
+	text-align: center;
+	padding: 1rem 0;
+	color: white;
+	vertical-align: center;
+}
+
+@media (max-width: 500px) {
+	#body {
+    	margin: 0 0 1rem 0;
+	}
+	.navbar {
+		padding-left: 1rem;
+		padding-right: 1rem; 
+	}
+	.navbar-light .navbar-brand {
+	    width: 85%;
+	    margin: 0;
+	}
+	.navbar-light .navbar-brand img {
+    	width: 95%;
+    	margin: 0;
+	}
+	.navbar-light .navbar-toggler {
+    	width: 15%;
+	    padding: 2px 0px;
+	}
+	.navbar-light .navbar-toggler-icon {
+    	width: 100%;
+	    padding: 0;
+	}
+	#navbarNav ul li:nth-of-type(odd) {
+		padding-left: 1rem; 
+	}
+	#navbarNav ul li:nth-of-type(even) {
+		display: none;
+	}
+	.navbar-toggler {
+		color: white;
+	}
+	.about-left h2 {
+    	margin: 1rem 0 2rem 0;
+    	font-size: 3.5rem;
+	}
+	.about-left p {
+		text-align: justify;
+		margin: 0;
+	}
+	.image.col-md-12.col-lg-12.col-xl-12 {
+    	display: block;
+    	position: relative;
+    	height: 15rem;
+	}
+	#rec-m {
+		position: absolute;
+	    top: 1.5rem;
+    	left: 5%;
+    	height: 10rem;
+	}
+	#car {
+		position: absolute;
+    	top: 4rem;
+    	height: 5rem;
+    	left: 30%;
+	}
+
+
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+	#body {
+    	margin: 0 0 2rem 0;
+	}
+	.navbar {
+		padding-left: 1rem;
+		padding-right: 1rem; 
+	}
+	.navbar-toggler {
+		color: white;
+	}
+	#navbarNav ul li:nth-of-type(odd) {
+		padding-left: 1rem; 
+	}
+	#navbarNav ul li:nth-of-type(even) {
+		display: none;
+	}
+	.about-left h2 {
+	    margin: 2rem 0 3rem 0;
+	    font-size: 3.5rem;
+	}
+	.about-left p {
+    	text-align: justify;
+    	margin: 0 0 0 0;
+	}
+	.image.col-md-12.col-lg-12.col-xl-12 {
+	    display: block;
+	    position: relative;
+	    height: 19rem;
+	}
+	#rec-m {
+        position: absolute;
+	    top: 1.8rem;
+	    left: 2.5rem;
+	    height: 13rem;
+	}
+	#car {
+	    position: absolute;
+	    top: 5rem;
+	    height: 7rem;
+	    left: 10rem;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.9px) {
+	#navbarNav ul li:nth-of-type(odd) {
+		padding: 0 0.5rem; 
+	}
+	.about-left h2 {
+	    margin: 2rem 0 3rem 0;
+	    font-size: 4rem;
+	}
+	.about-left p {
+    	text-align: justify;
+    	margin: 0 1rem 0 0;
+	}
+	.image.col-md-12.col-lg-12.col-xl-12 {
+		display: block;
+	    position: relative;
+	    height: 30.75rem;
+	}
+	#rec-m {
+    position: absolute;
+    top: 3.5rem;
+    left: -1rem;
+    height: 13rem;
+	}
+	#car {
+    position: absolute;
+    top: 7rem;
+    left: 6rem;
+    height: 6rem;
+	}
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.9px) {
+	#body {
+    margin: 0 0 3rem 0;
+	}
+	.image.col-md-12.col-lg-12.col-xl-12 {
+    display: block;
+    position: relative;
+    height: 28.55rem;
+	}
+	#rec-m {
+    position: absolute;
+    top: 4.5rem;
+    left: -2rem;
+    height: 15rem;
+	}
+	#car {
+    position: absolute;
+    top: 9rem;
+    left: 8rem;
+    height: 8rem;
+	}
+}
+@media (min-width: 1200px) {
+	.image.col-md-12.col-lg-12.col-xl-12 {
+    display: block;
+    position: relative;
+    height: 25.75rem;
+	}
+}

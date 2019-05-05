@@ -1,0 +1,293 @@
+#navbarNav {
+	justify-content: flex-end;
+}
+
+#menu-list li {
+	display: inline-block;
+	border-radius: 5px;
+	transition: .7s ease;
+}
+
+#menu-list li:nth-of-type(odd):hover {
+	transform: scale(.9);
+	background: #F8F9FA;
+}
+
+#menu-list li.active:hover {
+	transform: scale(1.0);
+	background: #F2F708;
+}
+
+.slash {
+    padding: 8px 15px;
+    color: white;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.active {
+	background: #a3a54b8a;
+}
+
+#banner {
+    background: linear-gradient(#00000061,#00000061), url(../img/home/banner1.png);
+    background-size: cover;
+}
+
+.banner-des {
+    margin: 0 0 4rem 0;
+}
+
+.banner-des h2 {
+    margin: 1rem 0 1.5rem 0;
+    font-size: 3rem;
+    background: #00000042;
+    padding-left: 15px;
+}
+
+.banner-des p {
+	margin: 2rem 0 0 0;
+}
+
+hr {
+    margin: 2rem 0 3rem;
+    border: 1px solid white;
+    width: 20px;
+}
+
+#about {
+	background: #F6F6F6;
+}
+
+.about-left {
+    margin: 1rem 0 -5rem 0;
+}
+
+.about-left h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.about-left hr {
+    margin: 2rem 0 2.5rem;
+    border: 1px solid black;
+    width: 20px;
+}
+
+#about-right {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: -20% 0 0 0;
+}
+
+.homepage {
+	position: relative;
+    width: 100%;
+    top: 37%;
+}
+
+.car {
+	position: relative;
+    top: -27%;
+    left: 41%;
+    width: 45%;
+}
+
+#another {
+	background: #28282E;
+}
+
+.another-left {
+	margin: 3rem 0 0 0;
+}
+
+.another-left h2 {
+	color: white;
+	font-size: 3.2rem;
+	text-transform: uppercase;
+}
+
+.another-left hr {
+    margin: 2rem 0 8rem;
+    border: 1px solid white;
+    width: 20px;
+}
+
+.another-left p {
+    margin: 0 0 3rem 0;
+    color: white;
+}
+#readmore {
+	margin: 0;
+}
+
+.another-right img {
+    position: relative;
+    width: 90%;
+    top: -18rem;
+    left: 5%;
+}
+
+footer {
+	background: #ef4035;
+	padding: 1rem 0;
+	color: white;
+	text-align: center;
+}
+
+@media (max-width: 575.9px) {
+
+	.navbar {
+		padding-left: 1rem;
+		padding-right: 1rem; 
+	}
+	.navbar-light .navbar-brand {
+	    width: 85%;
+	    margin: 0;
+	}
+	.navbar-light .navbar-brand img {
+    	width: 95%;
+    	margin: 0;
+	}
+	.navbar-light .navbar-toggler {
+    	width: 15%;
+	    padding: 2px 0px;
+	}
+	.navbar-light .navbar-toggler-icon {
+    	width: 100%;
+	    padding: 0;
+	}
+	#navbarNav ul li:nth-of-type(odd) {
+		padding-left: 1rem; 
+	}
+	#navbarNav ul li:nth-of-type(even) {
+		display: none;
+	}
+	.navbar-toggler {
+		color: white;
+	}
+	p {
+		text-align: justify;
+	}
+	footer p {
+		text-align: center;
+	}
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+
+	.navbar-brand {
+		width: 80%;
+	}
+	#navbarNav {
+		justify-content: flex-end;
+	}
+	#menu-list li {
+		display: inline-block;
+		border-radius: 5px;
+		transition: .7s ease;
+	}
+	#navbarNav ul li:nth-of-type(odd) {
+		padding-left: 1rem; 
+	}
+	#navbarNav ul li:nth-of-type(even) {
+		display: none;
+	}
+	#menu-list li.active:hover {
+		transform: scale(1.0);
+		background: #F2F708;
+	}
+	.navbar-light .navbar-nav .nav-link {
+	    color: white;
+	}
+	.active {
+		background: #a3a54b8a;
+	}
+	#banner {
+	    background: linear-gradient(#00000061,#00000061), url(../img/home/banner1.png);
+	    background-size: cover;
+	}
+	.banner-des {
+		color: white;
+	}
+	.banner-des h2 {
+	    margin: 1rem 0 1.5rem 0;
+	    font-size: 3rem;
+	    background: #00000042;
+	    padding-left: 15px;
+	}
+	.banner-des p {
+		margin: 2rem 0 0 0;
+	}
+	hr {
+	    margin: 2rem 0 3rem;
+	    border: 1px solid white;
+	    width: 20px;
+	}
+	.btn {
+		margin: 0 0 2rem 0;
+	}
+	#about {
+		background: #F6F6F6;
+	}
+	.about-left {
+	    margin: 1rem 0 -5rem 0;
+	}
+	.about-left h2 {
+	    font-size: 2.5rem;
+	    margin-bottom: 2rem;
+	    margin-top: 1rem;
+	}
+	.about-left hr {
+	    margin: 2rem 0 2.5rem;
+	    border: 1px solid black;
+	    width: 20px;
+	}
+	#about-right {
+	    width: 100%;
+	    padding-right: 15px;
+	    padding-left: 15px;
+	    margin: -20% 0 0 0;
+	}
+	.homepage {
+		position: relative;
+	    width: 100%;
+	    top: 37%;
+	}
+	.car {
+		position: relative;
+	    top: -27%;
+	    left: 41%;
+	    width: 45%;
+	}
+	#another {
+		background: #28282E;
+	}
+	.another-left {
+		margin: 3rem 0 0 0;
+	}
+	.another-left h2 {
+		color: white;
+		font-size: 3.2rem;
+		text-transform: uppercase;
+	}
+	.another-left hr {
+	    margin: 2rem 0 8rem;
+	    border: 1px solid white;
+	    width: 20px;
+	}
+	.another-left p {
+	    margin: 0 0 3rem 0;
+	    color: white;
+	}
+	.about-left h2 {
+    font-size: 1.9rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+}
