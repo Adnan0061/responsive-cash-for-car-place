@@ -65,8 +65,10 @@ font-family: 'Pacifico', cursive;
 }
 
 footer {
-	text-align: center;
 	background: #ee4a3f;
+	padding: 1rem 0;
+	color: white;
+	text-align: center;
 }
 
 @media (min-width: 0px) and (max-width: 575.9px) {
@@ -84,7 +86,7 @@ footer {
     	margin: 0;
 	}
 	.navbar-light .navbar-toggler {
-    	width: 15%;
+    	width: 12%;
 	    padding: 2px 0px;
 	}
 	.navbar-light .navbar-toggler-icon {
@@ -101,13 +103,213 @@ footer {
 		color: white;
 	}
 	.body-l h2 {
-		margin: 1rem 2rem 0 0;
+    	margin: 2rem 0 2rem 0;
 	}
-	img {
-	    width: 100%;
-	    margin: 1rem 0 2rem;
+	img[src="img/contact.png"] {
+		width: 50%;
+		display: block;
+		margin: 0 auto;
 	}
 	input[type="text"] {
 		width: 100%;
+	}
+	input[type="submit"] {
+	    margin: 0 auto;
+	    display: block;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.9px) {
+	
+	.navbar {
+		padding-left: 1rem;
+		padding-right: 1rem; 
+	}
+	.navbar-light .navbar-brand {
+	    width: 85%;
+	    margin: 0;
+	}
+	.navbar-light .navbar-brand img {
+    	width: 95%;
+    	margin: 0;
+	}
+	.navbar-light .navbar-toggler {
+    	width: 10%;
+	    padding: 2px 0px;
+	}
+	.navbar-light .navbar-toggler-icon {
+    	width: 100%;
+	    padding: 0;
+	}
+	#navbarNav ul li:nth-of-type(odd) {
+		padding-left: 1rem; 
+	}
+	#navbarNav ul li:nth-of-type(even) {
+		display: none;
+	}
+	.navbar-toggler {
+		color: white;
+	}
+	.body-l h2 {
+	    margin: 2rem 0 2rem 0;
+	}
+	img[src="img/contact.png"] {
+		width: 50%;
+		display: block;
+		margin: 0 auto;
+	}
+	input[type="text"] {
+		width: 100%;
+	}
+	input[type="submit"] {
+		margin: 0 auto;
+	    display: block;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.9px) {
+	
+	.navbar {
+		padding-left: 1rem;
+		padding-right: 1rem; 
+	}
+	.navbar-light .navbar-brand {
+	    width: 55%;
+	    margin: 0;
+	}
+	.navbar-light .navbar-brand img {
+    	width: 95%;
+    	margin: 0;
+	}
+	.navbar-light .navbar-toggler {
+    	width: 7%;
+	    padding: 2px 0px;
+	}
+	.navbar-light .navbar-toggler-icon {
+    	width: 100%;
+	    padding: 0;
+	}
+	#navbarNav ul li:nth-of-type(odd) {
+		padding-left: 1rem; 
+	}
+	#navbarNav ul li:nth-of-type(even) {
+		display: none;
+	}
+	.navbar-toggler {
+		color: white;
+	}
+	.body-l h2 {
+	    margin: 2rem 0 2rem 0;
+	}
+	.body-l p {
+	    margin: 1rem 0 1rem 0;
+	}
+	img[src="img/contact.png"] {
+     	margin: 3rem 0 0 0; 
+	}
+	input[type="text"] {
+		width: 80%;
+	}
+	input[type="submit"] {
+		margin: 0 0 0 25%;
+	    display: block;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.9px) {
+	
+	.navbar {
+		padding-left: 1rem;
+		padding-right: 1rem; 
+	}
+	.navbar-light .navbar-brand img {
+    	width: 90%;
+    	margin: 0;
+	}
+	.navbar-light .navbar-toggler {
+    	width: 15%;
+	    padding: 2px 0px;
+	}
+	.navbar-light .navbar-toggler-icon {
+    	width: 100%;
+	    padding: 0;
+	}
+	#navbarNav ul li:nth-of-type(odd) {
+		/*padding: 0 1rem; */
+	}
+	#navbarNav ul li:nth-of-type(even) {
+		/*display: none;*/
+	}
+	.navbar-toggler {
+		color: white;
+	}
+	.body-l h2 {
+        margin: 4rem 0 3rem 0;
+	}
+	.body-l p {
+	    margin: 1.5rem 0 1rem 0;
+	}
+	img[src="img/contact.png"] {
+     	margin: 3rem 0 0 0; 
+	}
+	.formm {
+	    margin: 2rem 0;
+	}
+	input[type="text"] {
+		width: 80%;
+	}
+	input[type="submit"] {
+		margin: 0;
+		padding: 20% 0;
+	    display: block;
+	}
+}
+
+@media (min-width: 1200px) {
+	
+	.navbar {
+		padding-left: 1rem;
+		padding-right: 1rem; 
+	}
+	.navbar-light .navbar-brand img {
+    	width: 90%;
+    	margin: 0;
+	}
+	.navbar-light .navbar-toggler {
+    	width: 15%;
+	    padding: 2px 0px;
+	}
+	.navbar-light .navbar-toggler-icon {
+    	width: 100%;
+	    padding: 0;
+	}
+	#navbarNav ul li:nth-of-type(odd) {
+		/*padding: 0 1rem; */
+	}
+	#navbarNav ul li:nth-of-type(even) {
+		/*display: none;*/
+	}
+	.navbar-toggler {
+		color: white;
+	}
+	.body-l h2 {
+        margin: 4rem 0 3rem 0;
+	}
+	.body-l p {
+	    margin: 1.5rem 0 1rem 0;
+	}
+	img[src="img/contact.png"] {
+     	margin: 3rem 0 0 0; 
+	}
+	.formm {
+	    margin: 2rem 0;
+	}
+	input[type="text"] {
+		width: 80%;
+	}
+	input[type="submit"] {
+		margin: 0;
+		padding: 20% 0;
+	    display: block;
 	}
 }
