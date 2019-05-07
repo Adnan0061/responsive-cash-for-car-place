@@ -193,6 +193,9 @@ footer {
 	#navbarNav ul li:nth-of-type(odd) {
 		padding: 0 0.5rem; 
 	}
+	#navbarNav ul li:nth-of-type(even) {
+		display: none;
+	}	
 	.about-left h2 {
 	    margin: 2rem 0 3rem 0;
 	    font-size: 4rem;
